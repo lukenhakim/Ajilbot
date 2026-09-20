@@ -1,7 +1,4 @@
-# EduBot - Chatbot AI Engineering (Gemini AI)
-
-
-
+# AjilBot - Chatbot AI Engineering (Gemini AI)
 ## Cara menjalankan
 
 1. Install dependencies:
