@@ -13,7 +13,7 @@ const app = express();
 
 // ==== Inisialisasi client Gemini AI ====
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const GEMINI_MODEL = 'gemini-3.6-flash';
+const GEMINI_MODEL = 'gemini-3.5-flash';
 
 // ==== System Instruction: menetapkan persona chatbot ====
 // Use case: AjilBot - Asisten Belajar AI Engineering untuk siswa SMK (PPLG)
