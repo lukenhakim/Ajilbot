@@ -1,9 +1,6 @@
 # EduBot - Chatbot AI Engineering (Gemini AI)
 
-Chatbot ini adalah tugas Hacktiv8 Sesi 3 "Pembuatan Chatbot berbasis Gemini AI Model".
 
-**Use case**: Asisten belajar AI Engineering untuk siswa SMK PPLG (santai, ramah, kasih contoh & analogi).
-**Parameter kreatif**: temperature 0.7, top_p 0.9, top_k 32, system instruction sebagai "guru pendamping" AI.
 
 ## Cara menjalankan
 
