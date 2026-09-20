@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>edubot.js — AI Engineering Chatbot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="editor">
+    <div class="editor-topbar"></div>
+
+    <div class="editor-tab">
+      <img class="school-logo" src="logo.png" alt="Logo sekolah" />
+      <span class="dot"></span>
+      <span class="filename">PPLG Kelas XI</span>
+      <span class="comment">// asisten belajar AI Engineering</span>
+    </div>
+
+    <div id="chat-box" class="chat-log"></div>
+
+    <form id="chat-form" class="prompt-line">
+      <span class="prompt-prefix">AjilBot:~$</span>
+      <input
+        type="text"
+        id="user-input"
+        placeholder="tanya soal AI, ML, atau prompting..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Run <span aria-hidden="true">▸</span></button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
