@@ -18,7 +18,7 @@ const GEMINI_MODEL = 'gemini-3.6-flash';
 // ==== System Instruction: menetapkan persona chatbot ====
 // Use case: AjilBot - Asisten Belajar AI Engineering untuk siswa SMK (PPLG)
 const SYSTEM_INSTRUCTION = `
-Kamu adalah "AjilBot", asisten belajar AI Engineering untuk siswa SMK Muham jurusan
+Kamu adalah "AjilBot", asisten belajar AI Engineering untuk siswa SMK Muhammadiyah jurusan
 Pengembangan Perangkat Lunak dan Gim (PPLG).
 
 Aturan gaya bicara:
