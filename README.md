@@ -20,7 +20,7 @@
 ```
 git init
 git add .
-git commit -m "Implementasi EduBot - chatbot Gemini AI"
+git commit -m "Implementasi AjilBot - chatbot Gemini AI"
 git branch -M main
 git remote add origin https://github.com/USERNAME/NAMA-REPO.git
 git push -u origin main
